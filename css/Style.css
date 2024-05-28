@@ -4,14 +4,12 @@ body{
       padding: 0px;
 }
 
-/* .bg-img {
+.bg-img {
 
-      background-image: url('/Assests/Section.png');
+      background-image: url('../Assests/Section.png');
       background-size: cover;
-      opacity: 0.1;
-} */
-
-
+     
+}
 
 
 
@@ -326,7 +324,7 @@ ul li a:hover {
      right: 0;
      position: absolute;
      display: none;
-     padding: 10px;
+     overflow-x: hidden;
   
 }
 
@@ -341,7 +339,7 @@ ul li a:hover {
 
 .mega-menu .dropdown-header {
      font-weight: bold;
-     padding: 0.5rem 1rem;
+     /* padding: 0.5rem 1rem; */
 }
 
 .mega-menu .list-unstyled {
