@@ -1,7 +1,12 @@
 body{
-
-      margin: 0px;
-      padding: 0px;
+     scroll-behavior: smooth;
+     font-family: 'Mulish', sans-serif;
+     /* font-family: 'Crimson Pro', serif; */
+     background-color:#ffffff;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+    
 }
 
 .bg-img {
@@ -40,8 +45,8 @@ body{
 
 .image_top {
 
-     width: 15%;
-     height: 15%;
+     width: 14%;
+     height: 23%;
      margin: 0 auto;
 }
 
@@ -178,7 +183,7 @@ body{
 .form_div {
 
      width: 350px;
-     height: 500px;
+     height: 545px;
      background-color: #fff;
      border: solid 2px #6EC1E4;
 }
@@ -265,7 +270,23 @@ ul li a:hover {
 }
 
 
+
+
+
 .services:hover {
+
+     cursor: pointer;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.serviceses {
+  
+     height: 250px;
+}
+
+
+.serviceses:hover {
 
      cursor: pointer;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -276,8 +297,8 @@ ul li a:hover {
 
 .whats-app {
      position: fixed;
-     width: 60px;
-     height: 60px;
+     width: 55px;
+     height: 53px; 
      bottom: 40px;
      background-color: #6EC1E4;
      color: #FFF;
@@ -318,45 +339,6 @@ ul li a:hover {
 
 
 
-.mega-menu {
-     width: 1200px;
-     left: 0;
-     right: 0;
-     position: absolute;
-     display: none;
-     overflow-x: hidden;
-  
-}
-
-.mega-menu.show {
-     display: block;
-}
-
-.navbar-nav .dropdown-menu {
-     border-top-left-radius: 0;
-     border-top-right-radius: 0;
-}
-
-.mega-menu .dropdown-header {
-     font-weight: bold;
-     /* padding: 0.5rem 1rem; */
-}
-
-.mega-menu .list-unstyled {
-     padding-left: 0;
-}
-
-.mega-menu .dropdown-item {
-     padding: 0.25rem 1rem;
-}
-
-
-
-.nav-item.dropdown:hover .dropdown-menu {
-     display: block;
-     margin-top: 0;
-     /* Remove the margin to align properly with the navbar */
-}
 
 
 
@@ -369,6 +351,22 @@ ul li a:hover {
 }
 
 
+
+
+.btn-custom {
+     background: none;
+     border: none;
+     padding: 0;
+     font: inherit;
+     color: inherit;
+     cursor: pointer;
+   }
+
+
+
+
+
+  
 
 
 .client {
@@ -525,6 +523,9 @@ ul li a:hover {
 
 
 
+
+
+
 @media only screen and (max-width: 600px) {
 
     body{
@@ -557,7 +558,8 @@ ul li a:hover {
 
      .bg-color{
 
-           font-size: small;
+           font-size: 10px;
+           padding: 12px;
      }
 
      .best_price{
@@ -566,7 +568,7 @@ ul li a:hover {
           height: 800px;
           background-color: #6EC1E4;
           border-radius: 10px 10px 0px 0px;
-          margin-left: -20px;
+          margin-left: -45px;
      }
 
      .tabs{
@@ -578,7 +580,7 @@ ul li a:hover {
      .form_div{
 
 
-          margin-left: -45px;
+          margin-left: -82px;
      }
 
      .crd_width{
@@ -586,5 +588,46 @@ ul li a:hover {
           width: auto;
      }
 
-     
+
+    
+    
+      .whatsapp_float {
+          width: 55px;
+          height: 53px;      
+          bottom: 20px;
+          right: 10px;
+          font-size: 20px;
+      }
+    
+    
+      .loader{
+          display: block;
+          position: relative;
+          left: 40%;
+          top: 43%;
+          width: 150px;
+          height: 150px;
+          margin: -75px 0 0 -75px;
+          border-radius: 55%;
+          border: 4px solid transparent;
+          border-top-color: #6EC1E4;
+          -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+      }
+  
+
+      .image_top_icon {
+          width: 30px;
+          height: 20px;
+          margin: 0 auto;
+      }
+
+
+      .des{
+
+           padding: 1rem !important;
+      }
 }
+
+
+  
